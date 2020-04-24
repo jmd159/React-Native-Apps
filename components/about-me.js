@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   headerText: { color: "white", fontSize: 18, fontWeight: "bold" },
   blurView: { flex: 1, borderRadius: 10, padding: 15 },
   bodyText: {
-    color: "white",
+    color: "#ffffff",
     fontSize: 14,
     textAlign: "left",
     fontWeight: "400",

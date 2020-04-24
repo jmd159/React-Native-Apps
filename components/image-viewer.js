@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     marginBottom: 80
   },
   footerText: {
-    color: "white",
+    color: "#ffffff",
     fontWeight: "bold",
     fontSize: 18
   }

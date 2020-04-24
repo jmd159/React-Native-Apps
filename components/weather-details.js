@@ -4,7 +4,7 @@ import WeatherIcon from "./weather-icons.js";
 
 const styles = StyleSheet.create({
   text: {
-    color: "white",
+    color: "#ffffff",
     fontWeight: "400",
     letterSpacing: 0.24,
     lineHeight: 18,
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   tempDegree: {
     fontSize: 50,
     fontWeight: "300",
-    color: "white",
+    color: "#ffffff",
     marginRight: 30,
     paddingBottom: 15
   },
@@ -26,13 +26,13 @@ const styles = StyleSheet.create({
   tempText: {
     fontSize: 85,
     fontWeight: "300",
-    color: "white"
+    color: "#ffffff"
   },
   textTitle: {
     fontSize: 24,
     fontWeight: "bold",
     textAlign: "center",
-    color: "white",
+    color: "#ffffff",
     marginTop: 25
   }
 });
