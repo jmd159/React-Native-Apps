@@ -141,7 +141,7 @@ const bulletStyles = StyleSheet.create({
     shadowOpacity: 1
   },
   text: {
-    color: "white",
+    color: "#ffffff",
     fontSize: 12,
     fontWeight: "bold"
   },

@@ -11,7 +11,6 @@ export default function WeatherIcon({ description }) {
 
 function SetIcon({ description }) {
   const type = getTypes(description);
-  console.log(type);
   switch (type) {
     case "rain":
       return (
@@ -52,7 +51,6 @@ function SetIcon({ description }) {
 }
 
 function getTypes(description) {
-  console.log(description, 'description');
   return description.includes("thunderstorm")
     ? "thunderstorm"
     : description.includes("snow") || description.includes("sleet")

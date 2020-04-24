@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 5,
-    borderColor: "white",
+    borderColor: "#ffffff",
     position: "absolute",
     bottom: -60
   },
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     height: 140
   },
   name: {
-    color: "white",
+    color: "#ffffff",
     fontSize: 20,
     fontWeight: "bold",
     position: "absolute",

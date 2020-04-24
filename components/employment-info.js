@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     flexShrink: 1,
     marginLeft: 5,
     marginTop: 1,
-    color: "white"
+    color: "#ffffff"
   }
 });
 
@@ -62,26 +62,26 @@ export default function EmploymentInfo({
     <View style={styles.container}>
       <View style={styles.flexContainer}>
         <Text style={styles.text}>{"Current Employer: "}</Text>
-        <Text style={[styles.text, { color: "white" }]}>
+        <Text style={[styles.text, { color: "#ffffff" }]}>
           {currentCompanyName}
         </Text>
       </View>
       <View style={styles.flexContainer}>
         <Text style={styles.text}>{"Current Title: "}</Text>
-        <Text style={[styles.text, { color: "white" }]}>{currentJobTitle}</Text>
+        <Text style={[styles.text, { color: "#ffffff" }]}>{currentJobTitle}</Text>
       </View>
       <View style={styles.titleContainer}>
         <Text style={styles.rollTitle}>CURRENT ROLES</Text>
         <View style={{ flexDirection: "column" }}>
           {currentRoles.map(item => {
             return (
-              <View style={styles.bulletsContainer}>
+              <View style={styles.bulletsContainer} key={item.key}>
                 <Ionicons
                   name={"ios-radio-button-on"}
                   size={20}
-                  color={"white "}
+                  color={"#ffffff"}
                 />
-                <Text key={item.key} style={styles.rollBody}>
+                <Text style={styles.rollBody}>
                   {item.role}
                 </Text>
               </View>

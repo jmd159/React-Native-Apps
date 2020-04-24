@@ -12,7 +12,6 @@ export default function CustomButton({
   loading,
   containerStyles
 }) {
-  console.log(loading);
   return (
     <View style={containerStyles}>
       <TouchableOpacity
